@@ -1,6 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('./style.css');
+
+.menuSectionHeader {
+  text-transform: uppercase;
+  font-weight: bold;
+  @apply dark:text-orange-400  text-cyan-700 text-[1.3rem];
+  cursor: pointer;
+}
+
+
+@layer base {
+
+  body {
+    @apply dark:text-stone-300 text-neutral-700 dark:bg-dark-bg-color dark:bg-dark-bg-image bg-light-bg-color bg-light-bg-image;
+    /* text-shadow: 1px 1px 2px rgba(0,0,0,.4) */
+  }
+
+  #app_wrapper {
+    @apply flex flex-row max-w-screen-2xl mr-auto ml-auto px-12 2xl:px-0
+  }
+  #sidebar_wrapper {
+   @apply hidden lg:block min-w-[240px] pt-5;
+  
+  }
+
+  #content_wrapper {
+    @apply mt-3;
+  }
+
+  #theme-toggler {
+    position: absolute;
+    right: 50px;
+  }
+
+  
+}
 
 @layer base {
   h1 {
@@ -21,4 +57,73 @@
   h6 {
     @apply text-xl;
   }
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 25px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #121212;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: 0px;
+  bottom: 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 0 0px 9px #000;
+  background: #4a4a4a url('https://i.ibb.co/FxzBYR9/night.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input:checked + .slider {
+  background-color: #a8a8a8;
+  box-shadow: 0 0 5px #4a4a4a inset;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(25px);
+  -ms-transform: translateX(25px);
+  transform: translateX(25px);
+  background: #e7e2c7 url('https://i.ibb.co/7JfqXxB/sunny.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }

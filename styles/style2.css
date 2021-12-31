@@ -1,0 +1,213 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../public/fonts/icomoon.eot?6lw8iz');
+  src:  url('../public/fonts/icomoon.eot?6lw8iz');
+  src:  url('../public/fonts/icomoon.eot?6lw8iz#iefix') format('embedded-opentype'),
+    url('../public/fonts/icomoon.ttf?6lw8iz') format('truetype'),
+    url('../public/fonts/icomoon.woff?6lw8iz') format('woff'),
+    url('../public/fonts/icomoon.svg?6lw8iz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  margin-right: 6px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mysql:before {
+  content: "\e928";
+  color: #4479a1;
+}
+.icon-postgresql:before {
+  content: "\e929";
+  color: #336791;
+}
+.icon-python:before {
+  content: "\e92a";
+  color: #3776ab;
+}
+.icon-sqlite:before {
+  content: "\e900";
+}
+.icon-mongodb:before {
+  content: "\e901";
+}
+.icon-pandas:before {
+  content: "\e902";
+}
+.icon-css3:before {
+  content: "\e922";
+  color: #1572b6;
+}
+.icon-csswizardry:before {
+  content: "\e923";
+  color: #f43059;
+}
+.icon-django:before {
+  content: "\e920";
+}
+.icon-docker:before {
+  content: "\e921";
+  color: #1488c6;
+}
+.icon-flask:before {
+  content: "\e924";
+}
+.icon-jupyter:before {
+  content: "\e903";
+  color: #f37626;
+}
+.icon-mongodb1:before {
+  content: "\e905";
+  color: #47a248;
+}
+.icon-pantheon:before {
+  content: "\e906";
+  color: #efd01b;
+}
+.icon-react:before {
+  content: "\e909";
+  color: #61dafb;
+}
+.icon-sass:before {
+  content: "\e925";
+  color: #c69;
+}
+.icon-tailwindcss:before {
+  content: "\e926";
+  color: #38b2ac;
+}
+.icon-vue-dot-js:before {
+  content: "\e927";
+  color: #4fc08d;
+}
+.icon-server:before {
+  content: "\e907";
+}
+.icon-database:before {
+  content: "\e907";
+}
+.icon-graphic_eq:before {
+  content: "\e90a";
+}
+.icon-insert_chart:before {
+  content: "\e90b";
+}
+.icon-table_chart:before {
+  content: "\e90c";
+}
+.icon-scatter_plot:before {
+  content: "\e904";
+}
+.icon-insert_chart_outlined:before {
+  content: "\e90d";
+}
+.icon-bar_chart:before {
+  content: "\e90e";
+}
+.icon-blur_linear:before {
+  content: "\e908";
+}
+.icon-pie_chart:before {
+  content: "\e90f";
+}
+.icon-pie_chart_outlined:before {
+  content: "\e910";
+}
+.icon-bubble_chart:before {
+  content: "\e911";
+}
+.icon-multiline_chart:before {
+  content: "\e912";
+}
+.icon-show_chart:before {
+  content: "\e913";
+}
+.icon-add_chart:before {
+  content: "\e914";
+}
+.icon-pivot_table_chart:before {
+  content: "\e915";
+}
+.icon-stacked_bar_chart:before {
+  content: "\e916";
+}
+.icon-waterfall_chart:before {
+  content: "\e917";
+}
+.icon-addchart:before {
+  content: "\e918";
+}
+.icon-analytics:before {
+  content: "\e919";
+}
+.icon-insights:before {
+  content: "\e91f";
+}
+.icon-qr_code:before {
+  content: "\e91a";
+}
+.icon-qr_code_scanner:before {
+  content: "\e91b";
+}
+.icon-stacked_line_chart:before {
+  content: "\e91c";
+}
+.icon-image:before {
+  content: "\e91d";
+}
+.icon-images:before {
+  content: "\e91e";
+}
+.icon-barcode:before {
+  content: "\e937";
+}
+.icon-qrcode:before {
+  content: "\e938";
+}
+.icon-pie-chart:before {
+  content: "\e99a";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-stats-bars:before {
+  content: "\e99c";
+}
+.icon-stats-bars2:before {
+  content: "\e99d";
+}
+.icon-paragraph-left:before {
+  content: "\ea77";
+}
+.icon-paragraph-center:before {
+  content: "\ea78";
+}
+.icon-paragraph-right:before {
+  content: "\ea79";
+}
+.icon-paragraph-justify:before {
+  content: "\ea7a";
+}
+.icon-embed:before {
+  content: "\ea7f";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
+.icon-codepen:before {
+  content: "\eae8";
+}

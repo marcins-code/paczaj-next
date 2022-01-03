@@ -15,6 +15,7 @@
 
   body {
     @apply dark:text-stone-300 text-neutral-700 dark:bg-dark-bg-color dark:bg-dark-bg-image bg-light-bg-color bg-light-bg-image;
+    box-sizing:border-box;
     /* text-shadow: 1px 1px 2px rgba(0,0,0,.4) */
   }
 
@@ -27,7 +28,7 @@
   }
 
   #content_wrapper {
-    @apply mt-3;
+    @apply mt-3 w-full;
   }
 
   #theme-toggler {
@@ -58,6 +59,43 @@
     @apply text-xl;
   }
 }
+
+.table-bordered-rows {
+  padding: 10px;
+}
+.table-bordered-rows  thead {
+  @apply bg-slate-800 py-4
+}
+
+.table-bordered-rows  thead th {
+  @apply p-4 text-zinc-200;
+}
+
+.table-bordered-rows  tbody {
+  @apply px-4
+}
+.table-bordered-rows  tbody tr {
+  @apply bg-gray-700 border-gray-500 border-solid border-b-2 px-4 py-4;
+}
+
+.table-bordered-rows  tbody tr:last-child {
+  @apply border-none;
+}
+
+.table-bordered-rows  tbody tr:nth-child(odd) {
+  @apply bg-gray-600 
+  
+}
+
+
+.table-bordered-rows  tbody tr td {@apply py-2 px-3 text-zinc-200}
+
+.badge {
+  @apply shadow-sm rounded-full w-min px-2 py-1 text-gray-200 text-[14px] m-auto;
+}
+
+.badge.success{@apply bg-green-700}
+.badge.danger{@apply bg-red-700}
 
 
 .switch {

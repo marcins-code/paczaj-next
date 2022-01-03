@@ -18,8 +18,8 @@ serie:[
 {name:'Python', icon:'icon-python', linkPath:'/python'},
 ],
 admin:[
-{name:'Typy artykułów', icon:'icon-shuffle_on', linkPath:'/admin/article-type'},
-{name:'Artykuły', icon:'icon-file-code-o', linkPath:'/admin/articles'},
+{name:'Typy artykułów', icon:'icon-storage', linkPath:'/admin/article-types'},
+{name:'Artykuły', icon:'icon-file_copy', linkPath:'/admin/articles'},
 ],
 
 }

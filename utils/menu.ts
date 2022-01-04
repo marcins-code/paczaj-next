@@ -23,3 +23,11 @@ admin:[
 ],
 
 }
+
+export const menuItems = ['dataScience', 'developmnet', 'serie'];
+
+export const menuItemsDecriptions = {
+    dataScience: 'Data Science',
+    developmnet: 'Development',
+    serie: 'Serie'
+}

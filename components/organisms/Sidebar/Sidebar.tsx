@@ -1,5 +1,5 @@
 import MenuSection from '../../molecules/MenuSection/MenuSection';
-import { menu } from '../../../menu/menu';
+import { menu } from '../../../utils/menu';
 import Link from 'next/link';
 const Sidebar = () => {  
   return (

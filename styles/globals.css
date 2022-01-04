@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 @import url('./style.css');
+/* @import 'codemirror/lib/codemirror.css'; */
+/* @import 'codemirror/theme/dracula.css'; */
+/* @import 'codemirror/theme/3024-day.css'; */
+/* @import './Codemirror.css'; */
+/* @import 'codemirror/theme/monokai.css'; */
+/* @import 'codemirr' */
 
 .menuSectionHeader {
   text-transform: uppercase;
@@ -97,6 +103,12 @@
 .badge.success{@apply bg-green-700}
 .badge.danger{@apply bg-red-700}
 
+
+.form-control{
+
+  @apply flex flex-col  mx-3
+
+}
 
 .switch {
   position: relative;

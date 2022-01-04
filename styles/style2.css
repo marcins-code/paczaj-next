@@ -27,78 +27,146 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-mysql:before {
-  content: "\e928";
-  color: #4479a1;
+.icon-x-altx-alt:before {
+  content: "\e946";
 }
-.icon-postgresql:before {
-  content: "\e929";
-  color: #336791;
+.icon-bin:before {
+  content: "\e9ac";
 }
-.icon-python:before {
-  content: "\e92a";
-  color: #3776ab;
+.icon-bin2:before {
+  content: "\e9ad";
 }
-.icon-sqlite:before {
-  content: "\e900";
+.icon-checkmark:before {
+  content: "\ea10";
 }
-.icon-mongodb:before {
-  content: "\e901";
+.icon-image:before {
+  content: "\e91d";
 }
-.icon-pandas:before {
-  content: "\e902";
+.icon-images:before {
+  content: "\e91e";
 }
-.icon-css3:before {
-  content: "\e922";
-  color: #1572b6;
+.icon-barcode:before {
+  content: "\e937";
 }
-.icon-csswizardry:before {
-  content: "\e923";
-  color: #f43059;
+.icon-qrcode:before {
+  content: "\e938";
 }
-.icon-django:before {
-  content: "\e920";
+.icon-pie-chart:before {
+  content: "\e99a";
 }
-.icon-docker:before {
-  content: "\e921";
-  color: #1488c6;
+.icon-stats-dots:before {
+  content: "\e99b";
 }
-.icon-flask:before {
-  content: "\e924";
+.icon-stats-bars:before {
+  content: "\e99c";
 }
-.icon-jupyter:before {
-  content: "\e903";
-  color: #f37626;
+.icon-stats-bars2:before {
+  content: "\e99d";
 }
-.icon-mongodb1:before {
-  content: "\e905";
-  color: #47a248;
+.icon-paragraph-left:before {
+  content: "\ea77";
 }
-.icon-pantheon:before {
-  content: "\e906";
-  color: #efd01b;
+.icon-paragraph-center:before {
+  content: "\ea78";
 }
-.icon-react:before {
-  content: "\e909";
-  color: #61dafb;
+.icon-paragraph-right:before {
+  content: "\ea79";
 }
-.icon-sass:before {
-  content: "\e925";
-  color: #c69;
+.icon-paragraph-justify:before {
+  content: "\ea7a";
 }
-.icon-tailwindcss:before {
-  content: "\e926";
-  color: #38b2ac;
+.icon-embed:before {
+  content: "\ea7f";
 }
-.icon-vue-dot-js:before {
-  content: "\e927";
-  color: #4fc08d;
+.icon-embed2:before {
+  content: "\ea80";
 }
-.icon-server:before {
-  content: "\e907";
+.icon-codepen:before {
+  content: "\eae8";
 }
-.icon-database:before {
-  content: "\e907";
+.icon-trashcan:before {
+  content: "\e94a";
+}
+.icon-cancel:before {
+  content: "\e944";
+}
+.icon-tools:before {
+  content: "\e943";
+}
+.icon-trash:before {
+  content: "\e948";
+}
+.icon-trash-o1:before {
+  content: "\e949";
+}
+.icon-close:before {
+  content: "\e945";
+}
+.icon-check-circle-o:before {
+  content: "\e93f";
+}
+.icon-check-circle:before {
+  content: "\e940";
+}
+.icon-check-square:before {
+  content: "\e941";
+}
+.icon-check-square-o:before {
+  content: "\e942";
+}
+.icon-trash-o:before {
+  content: "\e947";
+}
+.icon-file-text:before {
+  content: "\f15c";
+}
+.icon-file-code-o:before {
+  content: "\f1c9";
+}
+.icon-file_copy:before {
+  content: "\e93e";
+}
+.icon-storage:before {
+  content: "\e92b";
+}
+.icon-view_agenda:before {
+  content: "\e92c";
+}
+.icon-view_array:before {
+  content: "\e92d";
+}
+.icon-view_carousel:before {
+  content: "\e92e";
+}
+.icon-view_column:before {
+  content: "\e92f";
+}
+.icon-view_day:before {
+  content: "\e930";
+}
+.icon-view_headline:before {
+  content: "\e931";
+}
+.icon-view_list:before {
+  content: "\e932";
+}
+.icon-view_module:before {
+  content: "\e933";
+}
+.icon-view_quilt:before {
+  content: "\e934";
+}
+.icon-view_stream:before {
+  content: "\e935";
+}
+.icon-view_week:before {
+  content: "\e936";
+}
+.icon-reset_tv:before {
+  content: "\e939";
+}
+.icon-shuffle_on:before {
+  content: "\e93a";
 }
 .icon-graphic_eq:before {
   content: "\e90a";
@@ -166,48 +234,87 @@
 .icon-stacked_line_chart:before {
   content: "\e91c";
 }
-.icon-image:before {
-  content: "\e91d";
+.icon-mysql:before {
+  content: "\e928";
+  color: #4479a1;
 }
-.icon-images:before {
-  content: "\e91e";
+.icon-next-dot-js:before {
+  content: "\e93b";
 }
-.icon-barcode:before {
-  content: "\e937";
+.icon-nuxt-dot-js:before {
+  content: "\e93c";
+  color: #00c58e;
 }
-.icon-qrcode:before {
-  content: "\e938";
+.icon-postgresql:before {
+  content: "\e929";
+  color: #336791;
 }
-.icon-pie-chart:before {
-  content: "\e99a";
+.icon-python:before {
+  content: "\e92a";
+  color: #3776ab;
 }
-.icon-stats-dots:before {
-  content: "\e99b";
+.icon-redux:before {
+  content: "\e93d";
+  color: #764abc;
 }
-.icon-stats-bars:before {
-  content: "\e99c";
+.icon-sqlite:before {
+  content: "\e900";
 }
-.icon-stats-bars2:before {
-  content: "\e99d";
+.icon-mongodb:before {
+  content: "\e901";
 }
-.icon-paragraph-left:before {
-  content: "\ea77";
+.icon-pandas:before {
+  content: "\e902";
 }
-.icon-paragraph-center:before {
-  content: "\ea78";
+.icon-css3:before {
+  content: "\e922";
+  color: #1572b6;
 }
-.icon-paragraph-right:before {
-  content: "\ea79";
+.icon-csswizardry:before {
+  content: "\e923";
+  color: #f43059;
 }
-.icon-paragraph-justify:before {
-  content: "\ea7a";
+.icon-django:before {
+  content: "\e920";
 }
-.icon-embed:before {
-  content: "\ea7f";
+.icon-docker:before {
+  content: "\e921";
+  color: #1488c6;
 }
-.icon-embed2:before {
-  content: "\ea80";
+.icon-flask:before {
+  content: "\e924";
 }
-.icon-codepen:before {
-  content: "\eae8";
+.icon-jupyter:before {
+  content: "\e903";
+  color: #f37626;
+}
+.icon-mongodb1:before {
+  content: "\e905";
+  color: #47a248;
+}
+.icon-pantheon:before {
+  content: "\e906";
+  color: #efd01b;
+}
+.icon-react:before {
+  content: "\e909";
+  color: #61dafb;
+}
+.icon-sass:before {
+  content: "\e925";
+  color: #c69;
+}
+.icon-tailwindcss:before {
+  content: "\e926";
+  color: #38b2ac;
+}
+.icon-vue-dot-js:before {
+  content: "\e927";
+  color: #4fc08d;
+}
+.icon-server:before {
+  content: "\e907";
+}
+.icon-database:before {
+  content: "\e907";
 }

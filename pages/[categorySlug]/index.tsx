@@ -25,12 +25,9 @@ interface PropsTypes {
 }
 
 export const index = (props: PropsTypes) => {
-
-// const {appTheme} = useContext(AppSettingsContext);
-// console.log(appTheme);
-
   const router = useRouter();
   const { categorySlug } = router.query;
+  
   return (
     <>
       <Head>
@@ -115,7 +112,6 @@ export async function getStaticPaths() {
   const db = await DB.setUp();
   const collection = db.collection('articleTypes');
   const result = await collection.aggregate([{ $project: { slug: 1, _id: 0 } }]).toArray();
-  // await DB.closeConnection();
 
   return {
     paths: result.map((slug) => ({
@@ -123,6 +119,11 @@ export async function getStaticPaths() {
     })),
     fallback: false // See the "fallback" section below
   };
+
+  // return {
+  //   paths: [{ params: { categorySlug: '1' } }, { params: { categorySlug: '2' } }],
+  //   fallback: true,
+  // }
 }
 
 export default index;

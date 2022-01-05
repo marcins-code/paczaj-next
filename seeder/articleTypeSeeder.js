@@ -71,7 +71,6 @@ const articleTypeSeeder = async () => {
       dataScience.shift();
     }
   }
-  console.log(await articleTypeCollection.countDocuments());
 };
 
 articleTypeSeeder();

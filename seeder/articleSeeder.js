@@ -22,7 +22,6 @@ const articleSeeder = async () => {
 
   const initCount = await articleCollection.countDocuments();
   if (initCount !== 55) {
-    console.log(series);
     await articleCollection.deleteMany({});
 
     // categories

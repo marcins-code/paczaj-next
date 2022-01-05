@@ -1,5 +1,4 @@
 // const app = 0;
-// console.log('DUPA');
 
 
 // window.onload = function() {

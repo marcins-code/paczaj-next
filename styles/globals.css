@@ -177,3 +177,89 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+
+.my-node-enter {
+  opacity: 0;
+}
+.my-node-enter-active {
+  opacity: 0.75;
+  transition: opacity 200ms;
+}
+/* .my-node-exit {
+  opacity: 1;
+} */
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 1200ms;
+}
+
+.scale-out-vertical {
+	-webkit-animation: scale-out-vertical 0.3s cubic-bezier(0.445, 0.050, 0.550, 0.950) both;
+	        animation: scale-out-vertical 0.3s cubic-bezier(0.445, 0.050, 0.550, 0.950) both;
+}
+
+.scale-in-ver-center {
+	-webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation scale-out-vertical
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-out-vertical {
+	0% {
+	  -webkit-transform: scaleY(1);
+			  transform: scaleY(1);
+	  opacity: 1;
+	}
+	100% {
+	  -webkit-transform: scaleY(0);
+			  transform: scaleY(0);
+	  opacity: 1;
+	}
+  }
+  @keyframes scale-out-vertical {
+	0% {
+	  -webkit-transform: scaleY(1);
+			  transform: scaleY(1);
+	  opacity: 1;
+	}
+	100% {
+	  -webkit-transform: scaleY(0);
+			  transform: scaleY(0);
+	  opacity: 1;
+	}
+  }
+  
+  /**
+ * ----------------------------------------
+ * animation scale-in-ver-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-in-ver-center {
+	0% {
+	  -webkit-transform: scaleY(0);
+			  transform: scaleY(0);
+	  opacity: 1;
+	}
+	100% {
+	  -webkit-transform: scaleY(1);
+			  transform: scaleY(1);
+	  opacity: 1;
+	}
+  }
+  @keyframes scale-in-ver-center {
+	0% {
+	  -webkit-transform: scaleY(0);
+			  transform: scaleY(0);
+	  opacity: 1;
+	}
+	100% {
+	  -webkit-transform: scaleY(1);
+			  transform: scaleY(1);
+	  opacity: 1;
+	}
+  }

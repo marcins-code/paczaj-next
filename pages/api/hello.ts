@@ -10,20 +10,17 @@
 
 
 export const aa= 44;
-// // console.log(await connection());
 
 // // const numner  = async () => {
 // //   await client.connect()
 // //   const  db = client.db(process.env.MONGO_TEST_DB)
 // //   const collection = db.collection('articleTypes');
-// // //  console.log(await collection.countDocuments());
 
 // // return await collection.countDocuments();
    
 // // };
 
 // // const dd = numner();
-// // console.log(dd);
 // type Data = {
 //   name: string;
 // };
@@ -114,7 +111,6 @@ export const aa= 44;
     
 //       ]).toArray()
      
-//     console.log(result);
 
 //     // client.close();
 

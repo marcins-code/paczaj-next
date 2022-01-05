@@ -2,9 +2,7 @@ import React, {useContext} from 'react';
 import { AppSettingsContext } from '../../../context';
 
 export const ThemeToggler = () => {
-    // const [checked, setChecked] = useState(true);
     const {appTheme, appThemeHandler} = useContext(AppSettingsContext);
-    // console.log(appTheme);
 
   return (
     <div id="theme-toggler">

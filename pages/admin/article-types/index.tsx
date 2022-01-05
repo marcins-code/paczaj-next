@@ -23,7 +23,7 @@ const ArticleTypes = ({ data }: any) => {
     <Head>
         <title>Typy artykułów</title>
       </Head>
-    <div className="min-w-full">
+    <div className="min-w-full mb-10">
       <h4>
         <i className="icon-storage"></i> Administracja typami artykułów{' '}
       </h4>
